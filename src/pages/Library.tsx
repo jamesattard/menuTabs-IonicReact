@@ -6,7 +6,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
-const Home: React.FC = () => {
+const Library: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -23,11 +23,11 @@ const Home: React.FC = () => {
             height: "100%",
           }}
         >
-          Home content
+          Library content
         </div>
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default Library;

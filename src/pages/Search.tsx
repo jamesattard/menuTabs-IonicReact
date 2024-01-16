@@ -6,7 +6,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
-const Home: React.FC = () => {
+const Search: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -23,11 +23,11 @@ const Home: React.FC = () => {
             height: "100%",
           }}
         >
-          Home content
+          Search content
         </div>
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default Search;
